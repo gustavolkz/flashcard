@@ -2,8 +2,20 @@
 margin: 0;
 padding: 0;
 }
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main{
+  flex: 1;
+}
 .cabecalho{
     padding: 15px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: brown;
 }
 
 .cartao{
@@ -11,6 +23,20 @@ padding: 0;
     height: 200px;
 }
 
+
 .cartao-imagem{
     width: 100%;
+}
+.cabecalho-link{
+    color:#fff;
+    text-decoration: none;
+}
+h1{
+    color:#fff;
+    font-size: 24px;
+}
+footer{
+    background: color #7e3e1c;
+    padding: 15px 25px;
+    color:#fff;
 }
